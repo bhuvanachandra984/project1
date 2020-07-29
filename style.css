@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,400;0,700;1,300&display=swap');
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size:10px;
+    background: #edeef0;
+}
+*{
+    padding:0;
+    margin:0;
+}
+a{
+    text-decoration:none;
+    color:black;
+    font-size: 1.8em;  
+}
+a:hover{
+    color:#f05136;
+}
+nav ul{
+    align-items: center;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 10px;
+}
+nav ul li{
+    margin: 0 20px;
+}
+.icon{
+    font-size: 3em;
+    font-weight: 700;
+    color:#f05136;
+}
+header{
+    background-color: black;
+    color: white;
+    height:450px;
+}
+header div p {
+    font-size: 2.5em;
+    font-weight:200;
+}
+h1,h3,h4
+{
+    font-weight: 600;
+}
+h1
+{
+font-size:4em;
+}
+h2
+{
+font-size:3em;
+font-weight: 700;
+}
+h3
+{
+font-size:2.5em;
+}
+#PORTFOLIO h4
+{
+font-size:1.5em; 
+}
+.button{
+    color:white;
+    text-align: center;
+    background-color:#f05136 ;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    font-size: 1.8em;
+    border-radius: 5%;
+    padding: 10px;
+    border-color: black;
+}
+.button:hover{
+    color: white;
+}
+#HOME {
+    background:black;
+    color:white;
+    height:450px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+ #BIO img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin:100px;
+}
+.break
+{
+    display: block;
+}
+#BIO
+{
+    display: flex;
+    align-items: center; 
+}
+#BIO article *
+{
+    margin: 20px;
+}
+p{
+    font-size: 1.5em;
+} 
+#PORTFOLIO
+{
+    background: url(https://i1.faceprep.in/ProGrad/portfolio-background.svg);
+    background-color: black;
+    color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 50px;
+}
+#PORTFOLIO,
+#SKILLS 
+{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 50px;
+}
+#PORTFOLIO div{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    width: 100%;
+}
+#PORTFOLIO p,hr,h3
+{
+margin-bottom: 10px;
+}
+#PORTFOLIO div article{
+    background: white;
+    color: black;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+#PORTFOLIO div article p{
+    margin: 20px;
+}
+#skpos 
+{
+display: flex;
+justify-content: space-around;
+text-align:justify;
+width:100%;
+}
+#SKILLS ul
+{
+list-style: none;  
+}
+
+.la
+{
+    padding-left:200px;
+}
+#ts
+{
+    padding-right: 200px;
+}
+#SKILLS ul li{
+    margin: 10px 0;
+    font-size: 15px;     
+}
+progress[value]{
+    height:10px;
+    width:350px;
+    -webkit-appearance:none;
+}
+
+progress[value]::-webkit-progress-bar {
+    background-color:grey;
+    border-radius:2px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.25 inset);
+}
+::-webkit-progress-value{
+    background-color:#f05136;
+}
+#CONTACT{
+    padding: 40px 0; 
+    background-color:black;
+    color:white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.input{
+    line-height:2em;
+    width:350px;
+    border-radius:3px;
+    border-color:black;
+    margin: 20px 0;
+}
+#CONTACT form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+hr{
+    width:40%;
+}
+input:last-child
+{
+margin:20px;
+}

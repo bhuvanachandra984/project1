@@ -4,38 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+   <link rel="stylesheet" href="style.css">
     <title>ProGrad</title>
 </head>
 <body>
     <nav>
         <ul>
-            <li>ProGrad001</li>
+            <li class= "icon">ProGrad</li>
             <li>
                 <ul>
-                    <li>HOME</li>
-                    <li>BIO</li>
-                    <li>PORTFOLIO</li>
-                    <li>SKILLS</li>
-                    <li>CONTACT</li>
+                    <li><a href="#HOME" class="navlink">HOME</a></li>
+                    <li><a href="#BIO" class="navlink">BIO</a></li>
+                    <li><a href="#PORTFOLIO" class="navlink">PORTFOLIO</a></li>
+                    <li><a href="#SKILLS" class="navlink">SKILLS</a></li>
+                    <li><a href="#CONTACT"  class="navlink button">CONTACT</a></li>
                 </ul>
             </li>
-        </ul>
+        </ul>  
     </nav>
-    <header>
-        <div>
-            <p>I BELIVE IN</p>
+    <header id="HOME">
+        <div >
+            <p>I BELIEVE IN</p>
             <h1>EAT (); SLEEP (); CODE(); REPEAT();</h1>
         </div>
     </header>
-    <section>
+    <section id="BIO"> 
     <img src="./assets/bhu1.jpeg" alt="my photo">
     <article>
         <h2>BHUVANA CHANDRA</h2>
-        <p> I am currently doing my btech in computer science engineering at Saveetha School of engineering which is affiliated to Saveetha Institute of medical and technical Sciences at Chennai. Currently i am doing m internship as a app developer in yayum solutions, a startup company in chennai</p>
-        <a href="#">Download My Resume</a>
+        <p> I am currently doing my btech in computer science engineering at Saveetha School of engineering which is affiliated to Saveetha Institute of medical and technical Sciences at Chennai. Currently i am doing m internship as a app developer in yayum solutions, a startup company in chennai.I have zero backlogs in my BE. I got reward for getting 1st rank in my 1st year BE</p>
+      <span class="break"></span>    <p>I did my project on words guessing using Natural Level Programming</p>
+        <a href="#" class="button">Download My Resume</a>
     </article>
     </section>
-    <section>
+    <section id="PORTFOLIO">
         <h3>PORTFOLIO</h3>
         <p>Some of my best projects so far</p>
         <hr>
@@ -57,9 +59,10 @@
                 </article>
         </div>
     </section>
-    <section>
+    <section id="SKILLS">
         <h3>SKILLS<h3>
-        <div>
+    <div id= "skpos">
+        <div id="ts">
         <h4>TECHNICAL SKILLS</h4>
         <div>
             <ul>
@@ -76,10 +79,10 @@
             <li><progress max="100" value="60"></progress></li>
             </ul>
         </div>
-        </div>
+        </div >
         <div>
-        <h4></h4>
-        <div>
+        <h4 class="la">LANGUAGES</h4>
+        <div class="la">
         <ul>
             <li>ENGLISH</li>
             <li><progress max="100" value="60"></progress></li>
@@ -92,14 +95,15 @@
         </ul>
         </div>
         </div>
+    </div>
     </section>
-    <footer>
+    <footer id="CONTACT">
         <h3>CONTACT</h3>
         <form action="">
-            <input type="text" placeholder="ENTER YOUR NAME"><br>
-            <input type="text" placeholder="ENTER YOUR EMAIL"><br>
-            <input type="text" placeholder="ENTER YOUR MESSAGE"><br>
-            <input type="submit" value="Send Message">
+            <input class="input" type="text" placeholder="ENTER YOUR NAME">
+            <input class="input" type="text" placeholder="ENTER YOUR EMAIL">
+            <input class="input" type="text" placeholder="ENTER YOUR MESSAGE">
+            <input type="submit" class="button" value="Send Message">
         </form>
     </footer>
 </body>
